@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import CurrentLocation from "./currentLocation";
-import "./App.css";
+ import React, { useState } from "react";
+import CurrentLocation from "./currentLocation"; 
+import "./App.css"; 
 
-function App() {
+function App() { 
   return (
-    <React.Fragment>
+    <React.Fragment> 
       <div className="container">
         <CurrentLocation />
       </div>
@@ -18,11 +18,11 @@ function App() {
         </a>{" "}
         | Powered by{" "}
         <a target="_blank" href="https://www.htmlhints.com/">
-          HTML HINTS
-        </a>
-      </div>
-    </React.Fragment>
-  );
+          HTML HINTS 
+        </a> 
+      </div> 
+    </React.Fragment> 
+  ); 
 }
-
+ 
 export default App;
